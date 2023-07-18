@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+body::before{
+    content: "";
+    background-image: url(../imagens/sons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-position: center;
+    opacity: 0.2;
+    }
+
+.cabecalho {
+    background-color: rgb(94, 94, 94);
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-cabecalho {
+    width: 300px;
+}
+
+.selecao-de-personagens {
+    min-width: calc(100vh- 152px);
+    justify-content: center;
+    display: flex;
+    align-items:center;
+    gap: 30px;
+}
+
+.selecao-de-personagens .lista-de-personagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.selecao-de-personagens .personagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1139px;
+    gap: 25px
+}
+
+.selecao-de-personagens .personagens .titulo { 
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: solid #fafafa 2px;
+    width: 79%;
+    text-align: center;
+}
+
+.lista-de-personagens .personagens img {
+    width: 100%;
+    height: 100%;
+}
+
+.personagem {
+    border-radius: 10px;
+}
+
+.lista-de-personagens .personagem.selecionado {
+box-shadow: 0px 0px 10px 2px white;
+}
+
+.sons {
+    border-radius: 8px;
+}
+
+.personagem-selecionado {
+    text-align: center;
+    max-height: 500px;
+    margin-bottom: 400px;
+}
+
+.personagem-selecionado .personagem-grande {
+    text-align: center;
+    width: 350px;
+    height: 350px;
+}
+
+.personagem-selecionado .nome-personagem {
+    letter-spacing: 4px;
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
+    
+}
+
+.personagem-selecionado .descricao-personagem {
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(94, 94, 94);
+}
+
+#chibs .data-description {
+    width: px;
+}
+
+#bobb {
+    width: 200px;
+    height: 290px;
+}
+
+#chibss {
+    width: 200px;
+    height: 290px;
+}
+
+#clayy {
+    width: 200px;
+    height: 290px;
+}
+
+#happyy {
+    width: 200px;
+    height: 290px;
+}
+
+#jaxx {
+    width: 220px;
+    height: 290px;
+}
+
+#juicee {
+    width: 200px;
+    height: 290px;
+}
+
+#oppiee {
+    width: 200px;
+    height: 290px;
+}
+
+#pineyy {
+    width: 220px;
+    height: 290px;
+}
+
+#tigg {
+    width: 220px;
+    height: 290px;
+}
+
